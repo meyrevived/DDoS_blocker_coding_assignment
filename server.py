@@ -4,12 +4,8 @@ from threading import Lock
 from datetime import datetime
 from re import search
 
-
 from client_managers import StaticClientManager, DynamicClientManager
 from window_et_al import WindowType
-
-HOST = "localhost"
-PORT = 8080
 
 
 class ShbksHandler(BaseHTTPRequestHandler):
@@ -71,6 +67,7 @@ class ShbksHandler(BaseHTTPRequestHandler):
             self.send_error(503, "Don't DoS me")
 
         return 1
+
 
 class ShbksThreadedHTTPServer(ThreadingMixIn, HTTPServer):
     """Handle requests in a separate thread."""
