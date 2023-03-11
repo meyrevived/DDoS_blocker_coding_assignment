@@ -49,7 +49,7 @@ For demonstrating the solution. Running this will start the web server on the lo
 browser and test it for yourself. Browsers used in testing were Firefox, Chrome and Edge.
 #### server.py
 The Server class and Handler class. 
-##### client_managers
+#### client_managers
 The ClientManager base class and its two child classes, StaticClientManager and DynamicClientManager
 #### window_et_al
 Containing the Window class and a small Enum implementation class for window types, used in the Handler's do_GET
