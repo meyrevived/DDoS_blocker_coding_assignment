@@ -54,6 +54,5 @@ The ClientManager base class and its two child classes, StaticClientManager and 
 #### window_et_al
 Containing the Window class and a small Enum implementation class for window types, used in the Handler's do_GET
 
-### Thank you for taking the time to examine my solution and for choosing me as a candidate :) 
 
 
